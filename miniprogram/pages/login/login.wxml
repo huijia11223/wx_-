@@ -1,0 +1,27 @@
+<view class="login_picture">
+    <image src="/assets/login/head.jpg" mode="aspectFill" />
+</view>
+<view class="login_bar">
+    <text class="wxLoginTitle">微信登录</text>
+    <text class="userLoginTitle">手机登录</text>
+</view>
+<view class="login_form">
+    <view class="wx_login">
+        <!-- 二维码图片 -->
+    </view>
+    <view class="user_login">
+        <form class="uLoginForm">
+            <view class="phoneInput">
+                <input type="text" placeholder="请输入手机号码" />
+            </view>
+            <view class="scanCode">
+                <input class="scanCodeInput" type="text" />
+                <button type="primary" class="codeContent" size="mini">发送短信验证码</button>
+            </view>
+            <view class="sub_res_bar">
+                <button type="default" value="confirm" size="mini">confirm</button>
+                <button type="default" value="reset" size="mini">reset</button>
+            </view>
+        </form>
+    </view>
+</view>

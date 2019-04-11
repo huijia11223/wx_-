@@ -1,0 +1,37 @@
+<view class="messages">
+    <view class="messageBar">
+        <text bindtap="showPmessages">私信</text>
+        <text bindtap="showComment">评论</text>
+        <text bindtap="showAMe">@我</text>
+        <text bindtap="showNotifacation">通知</text>
+    </view>
+    <view class="messageContent">
+        <block>
+            <view class="pMessageBar" hidden="{{show}}">
+                <navigator class="privateMessage" wx:for="{{messages}}" wx:key="id">
+                    <image src="{{item.image}}" />
+                    <view class="pTitle">
+                        <text class="pUser">{{item.pUser}}</text>
+                        <text class="pTime">{{item.date}}</text>
+                        <view class="pContent">{{item.content}}</view>
+                    </view>
+                </navigator>
+            </view>
+        </block>
+        <block>
+            <view class="commetBar" hidden="{{!show}}">
+                <navigator class="comment">评论信息</navigator>
+            </view>
+        </block>
+        <block>
+            <view class="a_me_Bar" hidden="{{!show}}">
+                <navigator class="aMe" >@我</navigator>
+            </view>
+        </block>
+        <block>
+            <view class="notificationBar" hidden="{{!show}}">
+                <navigator class="notificationBar">通知</navigator>
+            </view>
+        </block>
+    </view>
+</view>

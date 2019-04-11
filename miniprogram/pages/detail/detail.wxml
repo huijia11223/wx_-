@@ -1,0 +1,87 @@
+<view class="container">
+    <scroll-view class="category_list" scroll-x="true">
+        <view class="category_item">空调</view>
+        <view class="category_item">电饭煲</view>
+        <view class="category_item">热水器</view>
+        <view class="category_item">电风扇</view>
+        <view class="category_item">洗衣机</view>
+        <view class="category_item">微波炉</view>
+    </scroll-view>
+    <scroll-view scroll-y="true" scroll-top="1000" class="goodsList">
+        <view class="good_item">
+            <image src="/assets/detail/1.jpg" mode="aspectFill" />
+            <view class="goodInor">
+                <view class="title">【咨询更优惠】空调 变频大1.5匹 一级能效 智能冷暖 KFR-35GW/WXDA1@</view>
+                <view class="content">1级能效，美居+京东直连，微信控制（可AIRKISS配网），蓝色时尚装饰块，大导风板，上下左右自动摆风</view>
+                <view class="tag">
+                    <text class="tag1">自营</text>
+                    <text class="tag1">新品</text>
+                </view>
+                <view class="price_and_sale">
+                    <text class="price">￥998</text>
+                    <text class="sale">已卖出：98台</text>
+                </view>
+            </view>
+        </view>
+        <view class="good_item">
+            <image src="/assets/detail/1.jpg" mode="aspectFill" />
+            <view class="goodInor">
+                <view class="title">【咨询更优惠】空调 变频大1.5匹 一级能效 智能冷暖 KFR-35GW/WXDA1@</view>
+                <view class="content">1级能效，美居+京东直连，微信控制（可AIRKISS配网），蓝色时尚装饰块，大导风板，上下左右自动摆风</view>
+                <view class="tag">
+                    <text class="tag1">自营</text>
+                    <text class="tag1">新品</text>
+                </view>
+                <view class="price_and_sale">
+                    <text class="price">￥998</text>
+                    <text class="sale">已卖出：98台</text>
+                </view>
+            </view>
+        </view>
+        <view class="good_item">
+            <image src="/assets/detail/1.jpg" mode="aspectFill" />
+            <view class="goodInor">
+                <view class="title">【咨询更优惠】空调 变频大1.5匹 一级能效 智能冷暖 KFR-35GW/WXDA1@</view>
+                <view class="content">1级能效，美居+京东直连，微信控制（可AIRKISS配网），蓝色时尚装饰块，大导风板，上下左右自动摆风</view>
+                <view class="tag">
+                    <text class="tag1">自营</text>
+                    <text class="tag1">新品</text>
+                </view>
+                <view class="price_and_sale">
+                    <text class="price">￥998</text>
+                    <text class="sale">已卖出：98台</text>
+                </view>
+            </view>
+        </view>
+        <view class="good_item">
+            <image src="/assets/detail/1.jpg" mode="aspectFill" />
+            <view class="goodInor">
+                <view class="title">【咨询更优惠】空调 变频大1.5匹 一级能效 智能冷暖 KFR-35GW/WXDA1@</view>
+                <view class="content">1级能效，美居+京东直连，微信控制（可AIRKISS配网），蓝色时尚装饰块，大导风板，上下左右自动摆风</view>
+                <view class="tag">
+                    <text class="tag1">自营</text>
+                    <text class="tag1">新品</text>
+                </view>
+                <view class="price_and_sale">
+                    <text class="price">￥998</text>
+                    <text class="sale">已卖出：98台</text>
+                </view>
+            </view>
+        </view>
+        <view class="good_item">
+            <image src="/assets/detail/1.jpg" mode="aspectFill" />
+            <view class="goodInor">
+                <view class="title">【咨询更优惠】空调 变频大1.5匹 一级能效 智能冷暖 KFR-35GW/WXDA1@</view>
+                <view class="content">1级能效，美居+京东直连，微信控制（可AIRKISS配网），蓝色时尚装饰块，大导风板，上下左右自动摆风</view>
+                <view class="tag">
+                    <text class="tag1">自营</text>
+                    <text class="tag1">新品</text>
+                </view>
+                <view class="price_and_sale">
+                    <text class="price">￥998</text>
+                    <text class="sale">已卖出：98台</text>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

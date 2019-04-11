@@ -1,0 +1,93 @@
+<!-- index.wxml -->
+<view class="search_bar">
+    <view class="search_bar_form">
+        <icon type="search" size="14" class="weui-icon-search_in-box" hidden="{{!showSearch}}" />
+        <input type="text" class="weui-search-bar_input" placeholder="请输入关键字" hidden="{{!showSearch}}" focus="{{showSearch}}" value="{{searchText}}" bindconfirm="searchHandle" bindblur="blurInput"/>
+        <label for="" class="search_label" hidden="{{showSearch}}" bindtap="showSearchHandle">
+            <icon type="search" size="14" class="search_icon" />
+            <view class="search_text">search</view>
+        </label>
+    </view>
+</view>
+<view class="navigation_bar">
+    <view class="new_activity" bindtap="hideView" hover-class="none" style="background-color:{{activeBC}}">
+        <text>新品.活动</text>
+        <!-- <view class="newActLine"></view> -->
+    </view>
+    <view class="divider">|</view>
+    <view class="store" bindtap="showView" hover-class="none" style="background-color:{{goodBC}}">
+        <text>商城</text>
+    </view>
+</view>
+<view class="divider"></view>
+<!-- 商城 -->
+<view class="isdisplay" hidden="{{!show}}">
+    <view class="category_bar">
+        <navigator wx:key="{{id}}" wx:for="{{category_list}}" class="item" url="/pages/detail/detail?cat={{item.id}}">
+            <image src="/assets/index/airCondition.jpg" alt="" />
+            <text for="">{{item.title}}</text>
+        </navigator>
+       
+    </view>
+    <view class="links">
+        <navigator class="commend">
+            <image src="/assets/index/link-01.png" />
+        </navigator>
+        <navigator class="forum">
+            <image src="/assets/index/link-02.png" />
+        </navigator>
+    </view>
+</view>
+<!-- 新品销售活动 -->
+<view class="newProduct_saleActivity" hidden="{{show}}">
+    <swiper class="photo_swiper" autoplay="{{true}}" indicator-dots="{{true}}" circular="{{true}}" interval="3000">
+        <swiper-item class="photo_item" mode="aspectFill">
+            <navigator>
+                <image src="/assets/index/swiper1.jpg" />
+            </navigator>
+        </swiper-item>
+        <swiper-item class="photo_item" mode="aspectFill">
+            <navigator>
+                <image src="/assets/index/swiper2.jpg" />
+            </navigator>
+        </swiper-item>
+        <swiper-item class="photo_item" mode="aspectFill">
+            <navigator>
+                <image src="/assets/index/swiper3.jpg" />
+            </navigator>
+        </swiper-item>
+        <swiper-item class="photo_item" mode="aspectFill">
+            <navigator>
+                <image src="/assets/index/swiper4.jpg" />
+            </navigator>
+        </swiper-item>
+    </swiper>
+    <view class="new">New Strains</view>
+    <view class="redLine"></view>
+    <view class="product">
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+        <navigator class="item">
+            <image src="/assets/index/new_product_1.jpg" />
+        </navigator>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+.login_picture image {
+    width: 100%;
+}
+
+
+
+.login_bar {
+    margin: 30rpx;
+    display: flex;
+    border-bottom: 1rpx solid black;
+    justify-content: space-around;
+    padding: 20rpx;
+    font-size: 30rpx;
+}
+
+.phoneInput {
+    display: flex;
+    border: 1rpx solid black;
+    margin: 40rpx;
+    font-size: 30rpx;
+}
+
+.scanCode {
+    display: flex;
+    flex-direction: row;
+}
+
+.scanCodeInput {
+    border: 1rpx solid black;
+    margin: 40rpx;
+    margin-right: 10rpx;
+}
+
+.codeContent {
+    height: 60rpx;
+    margin-top: 40rpx;
+}
+
+.sub_res_bar {
+    display: flex;
+
+}

@@ -1,0 +1,44 @@
+<!-- pages/cart/cart.wxml -->
+<view class="goodList">
+    <view class="item">
+        <view class="supply">
+            <icon type="{{shopProducts?'success':'circle'}}" size="16" bindtap="chooseShopProducts" />
+            <image src="/assets/cart/shop.jpg" />
+            <text class="">供货方:</text>
+            <view class="">格里空调</view>
+        </view>
+        <view class="goodInfor" wx:for="{{products}}" wx:key="{{index}}">
+            <icon type="{{buy?'success':'circle'}}" size="16" data-index="0" bindtap="chooseProduct" />
+            <image src="/assets/cart/bingxiang1.png" />
+            <view class="gDetailInfor">
+                <text class="goodTitle">{{item.content}}</text>
+                <view clsss="saleNumber">已售出:{{item.sNumber}}台</view>
+                <view clsss="product_number">
+                    <view>￥998</view>
+                    <view>
+                        <text>数量</text>
+                        <text bindtap="reduce">-</text>
+                        <input type="text" value="0" />
+                        <text bindtap="add">+</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="price">
+            <view class="goodPrice">￥998</view>
+            <view class="userParseNumber">
+                <text>数量</text>
+                <text class="reduce" bindtap="reduce">-</text>
+                <input type="text" value="0" />
+                <text class="add" bindtap="add">+</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="chooseAll">
+    <view class="total">
+        <icon type="{{allPurchase?'success':'circle'}}" size="16" bindtap="toggleAll" />
+        <text class="totalPrice">合计:￥998</text>
+    </view>
+    <view class="settlement">结算</view>
+</view>

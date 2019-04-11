@@ -1,0 +1,141 @@
+/* pages/cart/cart.wxss */
+.goodChange {
+    padding: 20rpx 10rpx;
+    border-top: 1rpx solid black;
+    font-size: 24rpx;
+}
+
+.shippingAddress {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.shippingAddress image {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.goodEdit {
+    float: right;
+    color: red;
+}
+
+.supply {
+    display: flex;
+    font-size: 30rpx;
+    border-top: 6rpx solid gray;
+    border-bottom: 1rpx solid gray;
+    padding: 20rpx;
+    align-items: center;
+}
+
+.goodTitle {
+    background-color: white;
+}
+
+
+.goodInfor {
+    display: flex;
+    padding: 20rpx;
+    border-bottom: 1rpx dashed gray;
+    align-items: center;
+}
+
+.supply image {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.gDetailInfor {
+    margin-left: 30rpx;
+    font-size: 30rpx;
+}
+
+.supply icon,
+.goodInfor icon {
+    margin-right: 20rpx;
+}
+
+.goodInfor image {
+    width: 170rpx;
+    height: 170rpx;
+
+}
+
+
+.price {
+    display: flex;
+    padding: 20rpx;
+    border-bottom: 3rpx solid gray;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reduce,
+.add {
+    background-color: gray;
+    width: 50rpx;
+    height: 50rpx;
+
+}
+
+.userParseNumber {
+    display: flex;
+    left: 350rpx;
+    text-align: center;
+    margin-left: 240rpx;
+    align-items: center;
+
+}
+
+.userParseNumber text {
+    margin: 10rpx;
+}
+
+.userParseNumber input {
+
+    border: 1rpx solid black;
+    width: 80rpx;
+    height: 50rpx;
+
+}
+
+.chooseAll {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    z-index: 2;
+}
+
+.totalPrice {
+    font-size: 30rpx;
+    color: red;
+    margin-left: 40rpx;
+}
+
+.total {
+    display: flex;
+    margin-right: 20rpx;
+    width: 70%;
+    padding: 20rpx;
+
+}
+
+.settlement {
+    display: flex;
+    flex: 1;
+    padding: 40rpx;
+    background-color: red;
+
+}
+.product_number{
+    background-color: aqua;
+    display: inline-block;
+    flex-direction: row;
+}

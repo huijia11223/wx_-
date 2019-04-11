@@ -1,0 +1,27 @@
+<view class="cells">
+  <view class="item">
+    <text>个人资料</text>
+    <switch checked="{{pInforSetting}}" data-setting="pInforSetting" bindchange="toggleSetting"/>
+  </view>
+  <view class="item">
+    <text>我的优惠券</text>
+    <switch checked="{{mCouponSetting}}" data-setting="mCouponSetting" bindchange="toggleSetting"/>
+  </view>
+  <view class="divider"></view>
+  <view class="item">
+    <text>常见问题</text>
+    <switch checked="{{cProblemSetting}}" data-setting="cProblemSetting" bindchange="toggleSetting"/>
+  </view>
+  <view class="item">
+    <text>使用条款</text>
+    <switch checked="{{uItemSetting}}" data-setting="uItemSetting" bindchange="toggleSetting"/>
+  </view>
+  <view class="item">
+    <text>隐私权政策</text>
+    <switch checked="{{ppSetting}}" data-setting="ppSetting" bindchange="toggleSetting"/>
+  </view>
+  <view class="item">
+    <text>联系客服</text>
+    <switch checked="{{ccsSetting}}" data-setting="ccsSetting" bindchange="toggleSetting"/>
+  </view>
+</view>

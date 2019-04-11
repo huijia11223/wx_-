@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",  
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/cart/cart",
+    "pages/search/search",
+    "pages/settings/settings",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/login/login"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "家有电器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#999",
+    "selectedColor":"#444",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "list":[
+        {
+        "pagePath":"pages/index/index",
+        "text":"index",
+        "iconPath":"assets/index/home.png",
+        "selectedIconPath":"assets/index/home-active.png"
+        },
+        {
+          "pagePath":"pages/message/message",
+          "text":"message",
+          "iconPath":"assets/index/message.png",
+          "selectedIconPath":"assets/index/message-active.png"
+        },
+        {
+            "pagePath": "pages/cart/cart",
+            "text": "cart",
+            "iconPath":"assets/index/cart.jpg",
+            "selectedIconPath":"assets/index/cart-active.jpg"
+        },
+        {
+          "pagePath":"pages/mine/mine",
+          "text":"mine",
+          "iconPath":"assets/index/profile.png",
+          "selectedIconPath":"assets/index/profile-active.png"
+        }
+        
+    ],
+    "position": "bottom"
+    }
+
+}

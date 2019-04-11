@@ -1,0 +1,40 @@
+<!-- pages/mine/mine.wxml -->
+<view class="user_image">
+    <image src="{{avatar}}" />
+    <!-- <open-data type="userAvatarUrl"></open-data> -->
+    <view class="name">{{name}}</view>
+    <!-- <open-data type="userNickName" open-gid="xxxxxx"></open-data> -->
+</view>
+<view class="cell">
+    <button type="primary" open-type='getUserInfo'>点击按钮获取权限</button>
+    <navigator wx:if="{{pInforSetting}}" class="item" role="navigation" url="/pages/user/user">
+        Personal information
+        <text>></text>
+    </navigator>
+    <navigator wx:if="{{mCouponSetting}}" class="item" role="navigation">
+        Coupons
+        <text>></text>
+    </navigator>
+    <view class="divider"></view>
+    <navigator wx:if="{{cProblemSetting}}" class="item" role="navigation">
+        Problems
+        <text>></text>
+    </navigator>
+    <navigator wx:if="{{uItemSetting}}" class="item" role="navigation">
+        Terms of Use
+        <text>></text>
+    </navigator>
+    <navigator wx:if="{{ppSetting}}" class="item" role="navigation">
+        Privacy Prolicy
+        <text>></text>
+    </navigator>
+    <navigator wx:if="{{ccsSetting}}" class="item" role="navigation">
+        Contact
+        <text>></text>
+    </navigator>
+    <view class="divider"></view>
+    <navigator class="item" role="navigation" url="/pages/settings/settings">
+        Setting
+        <text>></text>
+    </navigator>
+</view>

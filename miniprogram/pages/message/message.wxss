@@ -1,0 +1,33 @@
+.messageBar {
+    margin: 15rpx;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10rpx;
+    border-bottom: 1rpx solid #999
+}
+
+.privateMessage {
+    display: flex;
+    margin: 10rpx;
+    position: relative;
+    padding-bottom: 20rpx;
+    border-bottom: 2rpx solid rgb(182, 170, 170);
+}
+.privateMessage image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.pTitle {
+    font-size: 25rpx;
+    margin-left: 10rpx;
+}
+.pUser{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.pTime{
+    float: right;
+    font-size: 20rpx;
+}
